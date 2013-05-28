@@ -119,7 +119,7 @@
 		61B5FCDE09C52A9F00B25A18 /* SUUpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5FCA109C5228F00B25A18 /* SUUpdateAlert.m */; };
 		61B5FCDF09C52A9F00B25A18 /* SUUpdateAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B5FCA009C5228F00B25A18 /* SUUpdateAlert.h */; settings = {ATTRIBUTES = (); }; };
 		61B93A3C0DD02D7000DCD2F8 /* SUUIBasedUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93A390DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
-		61B93A3D0DD02D7000DCD2F8 /* SUUIBasedUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93A3A0DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.m */; };
+		61B93A3D0DD02D7000DCD2F8 /* SUUIBasedUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93A3A0DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.m */; settings = {COMPILER_FLAGS = "-Wno-format-security"; }; };
 		61B93B270DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93B250DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
 		61B93B280DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93B260DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m */; };
 		61B93C090DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93C070DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
